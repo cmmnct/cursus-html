@@ -11,18 +11,38 @@
 
 <body>
     <header>header</header>
-    <nav>nav</nav>
+    <nav>
+        <ul>
+            <li><a href="https://www.ncoi.nl">Computrain</a></li>
+        </ul>
+    </nav>
     <div class="row">
         <main class="col-9">
-        <section>
-            <header>
-                <h2>Header</h2>
-            </header>
-        </section>
-    </main>
-    <aside class="col-3">aside</aside>
+            <section class="details">
+                <header>
+                    <h2 class="detail">Header 1</h2>
+                </header>
+                <article>
+                    <p data-member="2828">eerste paragraaf</p>
+                    <p data-member="0">tweede paragraaf</p>
+                    <p>derde paragraaf</p>
+                </article>
+
+
+            </section>
+            <section>
+                <header>
+                    <h2>Header 2</h2>
+                </header>
+            </section>
+        </main>
+        <aside class="col-3">
+            <app-widget id="date-widget">
+                <h2>app widget</h2>
+            </app-widget>
+        </aside>
     </div>
-    
+
 
     <footer>footer</footer>
 
